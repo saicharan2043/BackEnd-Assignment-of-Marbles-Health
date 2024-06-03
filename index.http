@@ -1,0 +1,24 @@
+POST http://localhost:5000/adduser
+Content-Type: application/json
+
+{
+    "id" : "uueweuwyyuuyajhjhdshasjjjjjllllkklk",
+    "name" : "shiva",
+    "dob" : "06-11-2002",
+    "number" : "968542211",
+    "email" : "shivakumar@gmail.com",
+    "description" : "Hello this is shiva kumar"
+}
+###
+
+PUT http://localhost:5000/updateuser
+Content-Type: application/json
+
+{
+    "id" : "uueweuwyyuuyajhjhdshasjjjjjllllkklk",
+    "name" : "abhi",
+    "dob" : "06-11-2002",
+    "number" : "968542211",
+    "email" : "shivakumar@gmail.com",
+    "description" : "Hello this is shiva kumar"
+}
